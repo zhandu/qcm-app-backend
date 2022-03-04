@@ -1,0 +1,33 @@
+{
+  "name": "express-mongoose-vue-qcm-app-backend",
+  "version": "1.0.0",
+  "description": "Express-Mongoose-Vue QCM App (backend)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server.js",
+    "build": "babel server.js --out-file server-compiled.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb",
+    "mongoose",
+    "vue.js"
+  ],
+  "author": "Zhandos Urazov",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
